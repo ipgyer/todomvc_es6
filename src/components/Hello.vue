@@ -29,13 +29,13 @@
 				<!-- Remove this if you don't implement routing -->
 				<ul class="filters">
 					<li>
-						<a  href="#/" v-myactive :class="{selected:myStatus==undefined}">All</a>
+						<a  href="#/" :class="{selected:myStatus==undefined}">All</a>
 					</li>
 					<li>
-						<a href="#/active" v-myactive :class="{selected:myStatus=='active'}">Active</a>
+						<a href="#/active" :class="{selected:myStatus=='active'}">Active</a>
 					</li>
 					<li>
-						<a href="#/completed" v-myactive :class="{selected:myStatus=='completed'}">Completed</a>
+						<a href="#/completed" :class="{selected:myStatus=='completed'}">Completed</a>
 					</li>
 				</ul>
 				<!-- Hidden if no completed items are left ↓ -->
